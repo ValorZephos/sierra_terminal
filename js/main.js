@@ -17,7 +17,7 @@ setTimeout(function() {
 window.addEventListener("keyup", enterKey);
 
 console.log(
-  "%cCreated by ForrestKnight!",
+  "%cCreated by ForrestKnight",
   "color: #04ff00; font-weight: bold; font-size: 24px;"
 );
 console.log("%cUsed by Sierra Industries (ValorZephos)", "color: grey");

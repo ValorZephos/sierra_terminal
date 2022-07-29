@@ -8,11 +8,12 @@ var email = 'mailto:forrest@fkcodes.com';
 
 about = [
   "<br>",
-  "Sierra Industries is a global organisation which is tasked with ensuring the safe",
-  "containment of various viruses and chemicals which have previously breached containment.",
-  "It is vital that they are dealt with accordingly and with the dedication of Sierra Employees,",
-  "they aim to perform high risk tests on volunteer Test Subjects to gather more information regarding",
-  "these viruses.",
+  "Sierra Industries is a global organisation which is tasked with",
+  "ensuring the safe containment of various viruses and chemicals",
+  "which have previously breached containment. It is vital that they",
+  "are dealt with accordingly and with the dedication of Sierra Employees,",
+  "they aim to perform high risk tests on volunteer Test Subjects to gather",
+  "more information regarding these viruses.",
   "<br>"
 ];
 
