@@ -125,7 +125,7 @@ function commander(cmd) {
         terminal.innerHTML = '<a id="before"></a>';
         before = document.getElementById("before");
       }, 1);
-      loopLines(banner, "", 80);
+      addLine("Type banner to regain commands...", "color2", 80);
       break;
     case "banner":
       loopLines(banner, "", 80);
