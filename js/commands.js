@@ -8,23 +8,22 @@ var email = 'mailto:forrest@fkcodes.com';
 
 about = [
   "<br>",
+  '<span class="color2">Access Granted... Sierra Industries Terminal.</span>',
+  "<br>",
   "After the outbreak of various viruses within the world, a organisation",
   "called Sierra Industries was formed with the sole purpose of containing",
   "and researching these viruses to halt further outbreaks. With a vast amount",
   "of funding being sent from key governments, Sierra has stationed their operations",
   "on an island south of Greenland which they refer to as Facility Nomad.",
   "<br>",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "Facility Nomad is highly secretive and only accessible to those with the correct",
+  "clearance level within Sierra, all staff which are present at Nomad go through",
+  "serious background checks to ensure that they are capable of working on the Facility.",
+  "Nomad is highly fortified to ensure that all experiments are kept contained on the island,",
+  "the only exit from the island is via multiple Sierra Outposts which are guarded by operatives",
+  "hired by the organisation. What occurs on Nomad is unknown to those of the outside world as",
+  "the island functions seperatly to the rest of the world as a method of reducing panic within",
+  "the world.",
 ];
 
 archives = [
@@ -33,14 +32,18 @@ archives = [
   "<br>"
 ];
 
-social = [
+departments = [
   "<br>",
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/fknight' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/forrestpknight' + '</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/forrestpknight' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/forrestpknight' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/forrestknight' + "</a>",
-  "<br>"
+  '<span class="color2">Access Granted... Sierra Industries Terminal.</span>',
+  "<br>",
+  '<span class="command">Board of Directors</span>            Information about the Board of Directors',
+  '<span class="command">Security Department</span>           Information about the Security Department',
+  '<span class="command">Research Department</span>           Information about the Research Department',
+  '<span class="command">Task Force Department</span>         Information about the Task Force Department',
+  '<span class="command">Chemical Incident Department</span>  Information about the Chemical Incident Department',
+  '<span class="command">Maintenance Department</span>        Information about the Maintenance Department',
+
+  "<br>",
 ];
 
 admin = [
@@ -57,9 +60,10 @@ projects = [
 
 help = [
   "<br>",
-  '<span class="command">about</span>         Information about Sierra',
-  '<span class="command">archives</span>      List of Sierra Archives',
-  '<span class="command">admin</span>         List of Administrative Commands',
+  '<span class="command">about</span>           Information about Sierra',
+  '<span class="command">archives</span>        List of Sierra Archives',
+  '<span class="command">departments</span>     List of Sierra Departments',
+  '<span class="command">administrative</span>  List of Administrative Commands',
   "<br>",
 ];
 

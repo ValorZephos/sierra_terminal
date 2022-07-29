@@ -98,8 +98,8 @@ function commander(cmd) {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000); 
       break;
-    case "social":
-      loopLines(social, "color2 margin", 80);
+    case "departments":
+      loopLines(departments, "color2 margin", 80);
       break;
     case "admin":
       liner.classList.add("password");
@@ -125,7 +125,6 @@ function commander(cmd) {
         terminal.innerHTML = '<a id="before"></a>';
         before = document.getElementById("before");
       }, 1);
-      addLine("Copyright 2022 (C) Sierra Industries. All rights reserved.", "color2, 80")
       loopLines(banner, "", 80);
       break;
     case "banner":
