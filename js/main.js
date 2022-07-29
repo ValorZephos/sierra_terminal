@@ -124,6 +124,7 @@ function commander(cmd) {
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';
         before = document.getElementById("before");
+        loopLines(banner, "", 80);
       }, 1);
       break;
     case "banner":

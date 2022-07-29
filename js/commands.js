@@ -8,15 +8,23 @@ var email = 'mailto:forrest@fkcodes.com';
 
 about = [
   "<br>",
-  "Sierra Industries is a global organisation which is tasked with",
-  "ensuring the safe containment of various viruses and chemicals",
-  "which have previously breached containment.",
+  "After the outbreak of various viruses within the world, a organisation",
+  "called Sierra Industries was formed with the sole purpose of containing",
+  "and researching these viruses to halt further outbreaks. With a vast amount",
+  "of funding being sent from key governments, Sierra has stationed their operations",
+  "on an island south of Greenland which they refer to as Facility Nomad.",
   "<br>",
-  "It is vital that they are dealt with accordingly and with the", 
-  "dedication of Sierra Employees, they aim to perform high risk",
-  "tests on volunteer Test Subjects to gather more information",
-  "regarding these viruses.",
-  "<br>"
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 ];
 
 archives = [
@@ -49,9 +57,9 @@ projects = [
 
 help = [
   "<br>",
-  '<span class="command">about</span>         What is Sierra Industries?',
+  '<span class="command">about</span>         Information about Sierra',
   '<span class="command">archives</span>      List of Sierra Archives',
-  '<span class="command">admin</span>         Access to Administrative Commands',
+  '<span class="command">admin</span>         List of Administrative Commands',
   "<br>",
 ];
 
