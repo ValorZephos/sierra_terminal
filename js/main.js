@@ -17,10 +17,10 @@ setTimeout(function() {
 window.addEventListener("keyup", enterKey);
 
 console.log(
-  "%Created by ForrestKnight",
+  "%cCreated by ForrestKnight!",
   "color: #04ff00; font-weight: bold; font-size: 24px;"
 );
-console.log("Used by Sierra Industries (ValorZephos)", "color: grey");
+console.log("%cUsed by Sierra Industries (ValorZephos)", "color: grey");
 
 //init
 textarea.value = "";
