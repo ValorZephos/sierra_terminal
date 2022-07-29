@@ -105,8 +105,8 @@ function commander(cmd) {
       liner.classList.add("password");
       pw = true;
       break;
-    case "projects":
-      loopLines(projects, "color2 margin", 80);
+    case "clearances":
+      loopLines(clearances, "color2 margin", 80);
       break;
     case "password":
       addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!😂</span>", "error", 100);

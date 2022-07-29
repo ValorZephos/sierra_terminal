@@ -24,6 +24,7 @@ about = [
   "hired by the organisation. What occurs on Nomad is unknown to those of the outside world as",
   "the island functions seperatly to the rest of the world as a method of reducing panic within",
   "the world.",
+  "<br>"
 ];
 
 archives = [
@@ -36,25 +37,55 @@ departments = [
   "<br>",
   '<span class="color2">Access Granted... Sierra Industries Terminal.</span>',
   "<br>",
-  '<span class="command">Board of Directors</span>            Information about the Board of Directors',
-  '<span class="command">Security Department</span>           Information about the Security Department',
-  '<span class="command">Research Department</span>           Information about the Research Department',
-  '<span class="command">Task Force Department</span>         Information about the Task Force Department',
-  '<span class="command">Chemical Incident Department</span>  Information about the Chemical Incident Department',
-  '<span class="command">Maintenance Department</span>        Information about the Maintenance Department',
+  "Board of Directors",
+  "",
+  "",
+  "Security Department",
+  "",
+  "",
+  "Research Department",
+  "",
+  "",
+  "Task Force Department",
+  "",
+  "",
+  "Chemical Incident Department",
+  "",
+  "",
+  "Maintenance Department",
+  "",
+  "",
+  "<br>",
+];
 
+clearances = [
+  "<br>",
+  '<span class="color2">Access Granted... Sierra Industries Terminal.</span>',
+  "<br>",
+  "Clearance X",
+  "",
+  "",
+  "Clearance 4",
+  "",
+  "",
+  "Clearance 3",
+  "",
+  "",
+  "Clearance 2",
+  "",
+  "",
+  "Clearance 2",
+  "",
+  "",
+  "Clearance 1",
+  "",
+  "",
   "<br>",
 ];
 
 admin = [
   "<br>",
   'All Administrative Commands',
-  "<br>"
-];
-
-projects = [
-  "<br>",
-  "Still curating... most projects are offline, on GitHub, or confidential.",
   "<br>"
 ];
 
