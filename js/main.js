@@ -17,10 +17,10 @@ setTimeout(function() {
 window.addEventListener("keyup", enterKey);
 
 console.log(
-  "%cYou hacked my password!😠",
+  "%Created by ForrestKnight",
   "color: #04ff00; font-weight: bold; font-size: 24px;"
 );
-console.log("%cPassword: '" + password + "' - I wonder what it does?🤔", "color: grey");
+console.log("Used by Sierra Industries (ValorZephos)", "color: grey");
 
 //init
 textarea.value = "";
