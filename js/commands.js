@@ -94,6 +94,7 @@ help = [
   '<span class="command">about</span>           Information about Sierra',
   '<span class="command">archives</span>        List of Sierra Archives',
   '<span class="command">departments</span>     List of Sierra Departments',
+  '<span class="command">clearances</span>      List of Sierra Clearances',
   '<span class="command">administrative</span>  List of Administrative Commands',
   "<br>",
 ];
