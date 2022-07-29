@@ -12,7 +12,7 @@ about = [
   "<br>",
   "After the outbreak of various viruses within the world, a organisation",
   "called Sierra Industries was formed with the sole purpose of containing",
-  "and researching these viruses to halt further outbreaks. With a vast amount",
+  "and researching these viruses to halt further outbreaks. With a vast amount",  
   "of funding being sent from key governments, Sierra has stationed their operations",
   "on an island south of Greenland which they refer to as Facility Nomad.",
   "<br>",
