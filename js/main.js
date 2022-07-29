@@ -101,7 +101,7 @@ function commander(cmd) {
     case "departments":
       loopLines(departments, "color2 margin", 80);
       break;
-    case "admin":
+    case "administrative":
       liner.classList.add("password");
       pw = true;
       break;

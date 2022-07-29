@@ -83,7 +83,7 @@ clearances = [
   "<br>",
 ];
 
-admin = [
+administrative = [
   "<br>",
   'All Administrative Commands',
   "<br>"
