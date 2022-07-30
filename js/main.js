@@ -79,53 +79,53 @@ function enterKey(e) {
 
 function commander(cmd) {
   switch (cmd.toLowerCase()) {
-    case "HELP":
-      loopLines(HELP, "color2 margin", 80);
+    case "help":
+      loopLines(help, "color2 margin", 80);
       break;
-    case "INFORMATION":
-      loopLines(INFORMATION, "color2 margin", 80);
+    case "information":
+      loopLines(information, "color2 margin", 80);
       break;
-    case "BACKGROUND":
-      loopLines(BACKGROUND, "color2 margin", 80);
+    case "background":
+      loopLines(background, "color2 margin", 80);
       break;
-    case "CLASSIFICATIONS":
-      loopLines(CLASSIFICATIONS, "color2 margin", 80);
+    case "classifications":
+      loopLines(classifications, "color2 margin", 80);
       break;
-    case "DEPARTMENTS":
-      loopLines(DEPARTMENTS, "color2 margin", 80);
+    case "departments":
+      loopLines(departments, "color2 margin", 80);
       break;
-    case "CLEARANCES":
-      loopLines(CLEARANCES, "color2 margin", 80);
+    case "clearances":
+      loopLines(clearances, "color2 margin", 80);
       break;
-    case "ARCHIVES":
-      loopLines(ARCHIVES, "color2 margin", 80);
+    case "archives":
+      loopLines(archives, "color2 margin", 80);
       break;
-    case "OPERATIONS":
-      loopLines(OPERATIONS, "color2 margin", 80);
+    case "operations":
+      loopLines(operations, "color2 margin", 80);
       break;
-    case "FACILITY":
-      loopLines(FACILITY, "color2 margin", 80);
+    case "facility":
+      loopLines(facility, "color2 margin", 80);
       break;
-    case "VIRUS":
-      loopLines(VIRUS, "color2 margin", 80);
+    case "virus":
+      loopLines(virus, "color2 margin", 80);
       break;
-    case "ADMINISTRATIVE":
+    case "administrative":
       liner.classList.add("password");
       pw = true;
       break;
-    case "HISTORY":
+    case "history":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
-    case "CLEAR":
+    case "clear":
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';
         before = document.getElementById("before");
       }, 1);
       loopLines(banner, "", 80);
       break;
-    case "BANNER":
+    case "banner":
       loopLines(banner, "", 80);
       break;
     default:

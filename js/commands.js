@@ -1,6 +1,6 @@
 var password = "SIA/41!56M";
 
-INFORMATION = [
+information = [
   "<br>",
   '<span class="command">BACKGROUND</span>         BACKGROUND OF SIERRA',
   '<span class="command">CLASSIFICATIONS</span>    LIST OF CLASSIFICATIONS',
@@ -9,7 +9,7 @@ INFORMATION = [
   "<br>",
 ];
 
-BACKGROUND = [
+background = [
   "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
@@ -42,7 +42,7 @@ BACKGROUND = [
   "<br>"
 ];
 
-CLASSIFICATIONS = [
+classifications = [
   "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
@@ -72,7 +72,7 @@ CLASSIFICATIONS = [
   "<br>",
 ];
 
-DEPARTMENTS = [
+departments = [
   "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
@@ -102,7 +102,7 @@ DEPARTMENTS = [
   "<br>",
 ];
 
-CLEARANCES = [
+clearances = [
   "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
@@ -136,7 +136,7 @@ CLEARANCES = [
   "<br>",
 ];
 
-ARCHIVES = [
+archives = [
   "<br>",
   '<span class="command">OPERATIONS</span>         LIST OF OPERATION ENTRIES',
   '<span class="command">FACILITY</span>           LIST OF FACILITY ENTRIES',
@@ -144,31 +144,31 @@ ARCHIVES = [
   "<br>",
 ];
 
-OPERATIONS = [
+operations = [
   "<br>",
   'LIST OF OPERATION ENTRIES',
   "<br>"
 ];
 
-FACILITY = [
+facility = [
   "<br>",
   'LIST OF FACILITY ENTRIES',
   "<br>"
 ];
 
-VIRUS = [
+virus = [
   "<br>",
   'LIST OF VIRUS ENTRIES',
   "<br>"
 ];
 
-ADMINISTRATIVE = [
+administrative = [
   "<br>",
   '<span class="command">VIRUS-001</span>          VIRUS LOG #001 - CLASSIFIED',
   "<br>"
 ];
 
-HELP = [
+help = [
   "<br>",
   '<span class="command">INFORMATION</span>        INFORMATION ABOUT SIERRA',
   '<span class="command">ADMINISTRATIVE</span>     LIST OF ADMINISTRATIVE COMMANDS',
@@ -178,7 +178,7 @@ HELP = [
   "<br>",
 ];
 
-BANNER = [
+banner = [
   '<span class="index">COPYRIGHT 2022 (C) SIERRA INDUSTRIES. ALL RIGHTS RESERVED.</span>',
   "<br>",
   "<br>",
