@@ -61,7 +61,7 @@ body {
   }
   #liner::before {
     color: #519975;
-    content: "authorized_user@sierra:~$";
+    content: "AUTHORIZED_USER@SIERRA:~$";
   }
   #liner.password::before {
     content: "Password:";
