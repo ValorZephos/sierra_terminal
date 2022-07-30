@@ -46,7 +46,7 @@ classifications = [
   "<br>",
   '<span class="color2">Access Granted... Sierra Industries Terminal.</span>',
   "<br>",
-  "███████....",
+  "██████....",
   "....",
   "....",
   "<br>",
