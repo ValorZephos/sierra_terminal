@@ -45,8 +45,8 @@ function enterKey(e) {
       pw = false;
       liner.classList.remove("password");
     } else if (e.keyCode == 13) {
-      addLine("Wrong password", "error", 0);
-      command.innerHTML = "";
+      addLine("Wrong password, type <span class=\"command\">'HOME'</span>", "error", 0);
+      command.innerHTML = "";""
       textarea.value = "";
       pw = false;
       liner.classList.remove("password");
