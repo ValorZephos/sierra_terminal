@@ -19,11 +19,17 @@ about = [
   "Facility Nomad is highly secretive and only accessible to those with the correct",
   "clearance level within Sierra, all staff which are present at Nomad go through",
   "serious background checks to ensure that they are capable of working on the Facility.",
-  "Nomad is highly fortified to ensure that all experiments are kept contained on the island,",
-  "the only exit from the island is via multiple Sierra Outposts which are guarded by operatives",
-  "hired by the organisation. What occurs on Nomad is unknown to those of the outside world as",
-  "the island functions seperatly to the rest of the world as a method of reducing panic within",
-  "the world.",
+  "With the high level of secrecy regarding Nomad these employees are among the best the",
+  "world has to offer, enlisted from varying areas of the world and specializations. All",
+  "staff are placed into a Sierra Department upon their arrival on Nomad to ensure a high",
+  "level of organisation for the operations, each Department completes various duties to",
+  "benefit the organisation.",
+  "<br>",
+  "After recent uprisings from Test Subjects, Sierra began to highly fortify Nomad to ensure that", 
+  "all experiments are kept contained on the island, the only exit from the island is via multiple",
+  "Sierra Outposts which are guarded by operatives hired by the organisation. What occurs on Nomad is",
+  "unknown to those of the outside world as the island functions seperatly to the rest of the world",
+  "as a method of reducing panic within the world.",
   "<br>"
 ];
 
