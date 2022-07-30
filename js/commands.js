@@ -2,6 +2,8 @@ var password = "SIA/41!56M";
 
 information = [
   "<br>",
+  '<span class="color2">LOADING INFORMATION....</span>',
+  "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
   '<span class="command">BACKGROUND</span>         BACKGROUND OF SIERRA',
@@ -14,6 +16,8 @@ information = [
 ];
 
 background = [
+  "<br>",
+  '<span class="color2">LOADING BACKGROUND....</span>',
   "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
@@ -50,6 +54,8 @@ background = [
 
 classifications = [
   "<br>",
+  '<span class="color2">LOADING CLASSIFICATIONS....</span>',
+  "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
   "██████....",
@@ -82,6 +88,8 @@ classifications = [
 
 departments = [
   "<br>",
+  '<span class="color2">LOADING DEPARTMENTS....</span>',
+  "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
   "BOARD OF DIRECTORS....",
@@ -113,6 +121,8 @@ departments = [
 ];
 
 clearances = [
+  "<br>",
+  '<span class="color2">LOADING CLEARANCES....</span>',
   "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
@@ -150,9 +160,11 @@ clearances = [
 
 archives = [
   "<br>",
+  '<span class="color2">LOADING ARCHIVES....</span>',
+  "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
-  '<span class="command">OPERATIONS</span>         LIST OF OPERATION ENTRIES',
+  '<span class="command">OPERATION</span>         LIST OF OPERATION ENTRIES',
   '<span class="command">FACILITY</span>           LIST OF FACILITY ENTRIES',
   '<span class="command">VIRUS</span>              LIST OF VIRUS ENTRIES',
   "<br>",
@@ -160,7 +172,9 @@ archives = [
   "<br>",
 ];
 
-operations = [
+operation = [
+  "<br>",
+  '<span class="color2">LOADING OPERATION ENTRIES....</span>',
   "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
@@ -172,6 +186,8 @@ operations = [
 
 facility = [
   "<br>",
+  '<span class="color2">LOADING FACILITY ENTRIES....</span>',
+  "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
   'LIST OF FACILITY ENTRIES',
@@ -181,6 +197,8 @@ facility = [
 ];
 
 virus = [
+  "<br>",
+  '<span class="color2">LOADING VIRUS ENTRIES....</span>',
   "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
@@ -192,6 +210,8 @@ virus = [
 
 administrative = [
   "<br>",
+  '<span class="color2">LOADING ADMINISTRATIVE SECTOR....</span>',
+  "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
   '<span class="command">VIRUS-001</span>          VIRUS LOG #001 - CLASSIFIED',
@@ -201,6 +221,8 @@ administrative = [
 ];
 
 help = [
+  "<br>",
+  '<span class="color2">LOADING COMMANDS....</span>',
   "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
