@@ -11,6 +11,8 @@ information = [
   '<span class="command">DEPARTMENTS</span>        LIST OF DEPARTMENTS',
   '<span class="command">CLEARANCES</span>         LIST OF CLEARANCES',
   "<br>",
+  '<a href="https://discord.gg/DJvnv9C5Ub" class="command">DISCORD</a>            CLICK FOR DISCORD',
+  "<br>",
   "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
   "<br>",
 ];
