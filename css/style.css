@@ -68,7 +68,7 @@ body {
     content: "AUTHORIZED_USER@SIERRA:~$";
   }
   #liner.password::before {
-    content: "Password:";
+    content: "Enter Password:";
   }
   @keyframes show {
     from {

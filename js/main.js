@@ -38,7 +38,7 @@ function enterKey(e) {
       pwd = true;
     }
     if (pwd && e.keyCode == 13) {
-      loopLines(admin, "color2 margin", 120);
+      loopLines(administrative, "color2 margin", 120);
       command.innerHTML = "";
       textarea.value = "";
       pwd = false;
@@ -150,10 +150,6 @@ function commander(cmd) {
       loopLines(virus, "color2 margin", 80);
       break;
     case "administrative":
-      setTimeout(function() {
-        terminal.innerHTML = '<a id="before"></a>';
-        before = document.getElementById("before");
-      }, 1);
       liner.classList.add("password");
       pw = true;
       break;

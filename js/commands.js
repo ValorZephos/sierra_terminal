@@ -1,4 +1,4 @@
-var password = "SIA/41!56M";
+var password = "123";
 
 information = [
   "<br>",
@@ -208,7 +208,7 @@ virus = [
   "<br>",
 ];
 
-administrative = [
+ServiceWorkerContainer = [
   "<br>",
   '<span class="color2">LOADING ADMINISTRATIVE SECTOR....</span>',
   "<br>",
