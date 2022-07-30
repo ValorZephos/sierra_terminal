@@ -229,7 +229,7 @@ help = [
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
   '<span class="command">INFORMATION</span>        INFORMATION ABOUT SIERRA',
-  '<span class="command">ADMINISTRATIVE</span>     LIST OF ADMINISTRATIVE COMMANDS, CURRENTLY BROKEN DO NOT USE',
+  '<span class="command">ADMINISTRATIVE</span>     LIST OF ADMINISTRATIVE COMMANDS',
   '<span class="command">ARCHIVES</span>           LIST OF SIERRA ARCHIVES',
   "<br>",
   "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
