@@ -129,7 +129,7 @@ function commander(cmd) {
       loopLines(banner, "", 80);
       break;
     default:
-      addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
+      addLine("<span class=\"inherit\">COMMAND NOT FOUND. FOR A LIST OF COMMANDS, TYPE <span class=\"command\">'HELP'</span>.</span>", "error", 100);
       break;
   }
 }
