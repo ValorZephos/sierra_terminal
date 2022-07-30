@@ -20,12 +20,10 @@ body {
   textarea {
     left: -1000px;
     position: absolute;
-    text-transform: uppercase;
   }
   b {
     font-weight: bold;
     text-decoration: underline;
-    text-transform: uppercase;
   }
   /* Cursor Start */
   .cursor {
@@ -43,8 +41,7 @@ body {
     display: inline-block;
     text-decoration: blink;
     animation: blinker 1s linear infinite;
-    text-transform: uppercase;
-  }
+    }
   @keyframes blinker {
     50% {
       opacity: 0;
@@ -68,7 +65,7 @@ body {
     content: "AUTHORIZED_USER@SIERRA:~$";
   }
   #liner.password::before {
-    content: "Enter Password:";
+    content: "Password:";
   }
   @keyframes show {
     from {
