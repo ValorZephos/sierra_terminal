@@ -1,15 +1,15 @@
 var password = "SIA/41!56M";
 
-organisation = [
+information = [
   "<br>",
-  '<span class="command">information</span>        Information about Sierra',
+  '<span class="command">background</span>         Background of Sierra',
   '<span class="command">classifications</span>    List of Classifications',
   '<span class="command">departments</span>        List of Departments',
   '<span class="command">clearances</span>         List of Clearances',
   "<br>",
 ];
 
-information = [
+background = [
   "<br>",
   '<span class="color2">Access Granted... Sierra Industries Terminal.</span>',
   "<br>",
@@ -171,7 +171,7 @@ administrative = [
 
 help = [
   "<br>",
-  '<span class="command">organisation</span>       Organisation of Sierra',
+  '<span class="command">information</span>        Information about Sierra',
   '<span class="command">administrative</span>     List of Administrative Commands',
   '<span class="command">archives</span>           List of Sierra Archives',
   '<span class="command">history</span>            List of Previous Commands',
