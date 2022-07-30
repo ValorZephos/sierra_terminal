@@ -100,37 +100,23 @@ function commander(cmd) {
     case "archives":
       loopLines(archives, "color2 margin", 80);
       break;
-    case "video":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
+    case "operations":
+      loopLines(operations, "color2 margin", 80);
       break;
-    case "sudo":
-      addLine("Oh no, you're not admin...", "color2", 80);
-      setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-      }, 1000); 
+    case "facility":
+      loopLines(facility, "color2 margin", 80);
       break;
-    case "departments":
-      loopLines(departments, "color2 margin", 80);
+    case "virus":
+      loopLines(virus, "color2 margin", 80);
       break;
     case "administrative":
       liner.classList.add("password");
       pw = true;
       break;
-    case "clearances":
-      loopLines(clearances, "color2 margin", 80);
-      break;
-    case "password":
-      addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!😂</span>", "error", 100);
-      break;
     case "history":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
-      break;
-    case "email":
-      addLine('Opening mailto:<a href="mailto:forrest@fkcodes.com">forrest@fkcodes.com</a>...', "color2", 80);
-      newTab(email);
       break;
     case "clear":
       setTimeout(function() {
@@ -141,27 +127,6 @@ function commander(cmd) {
       break;
     case "banner":
       loopLines(banner, "", 80);
-      break;
-    // socials
-    case "youtube":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
-    case "twitter":
-      addLine("Opening Twitter...", "color2", 0);
-      newTab(twitter);
-      break;
-    case "linkedin":
-      addLine("Opening LinkedIn...", "color2", 0);
-      newTab(linkedin);
-      break;
-    case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
-      newTab(instagram);
-      break;
-    case "github":
-      addLine("Opening GitHub...", "color2", 0);
-      newTab(github);
       break;
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);

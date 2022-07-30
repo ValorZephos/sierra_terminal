@@ -1,10 +1,4 @@
-var youtube = "https://www.youtube.com/fknight/";
-var twitter = "https://www.twitter.com/forrestpknight/";
 var password = "SIA/41!56M";
-var linkedin = "https://www.linkedin.com/in/forrestpknight/";
-var instagram = "https://www.instagram.com/forrestpknight/";
-var github = "https://github.com/forrestknight/";
-var email = 'mailto:forrest@fkcodes.com';
 
 information = [
   "<br>",
@@ -145,10 +139,29 @@ clearances = [
 
 archives = [
   "<br>",
-  "All Sierra Industries Archives",
+  '<span class="command">operations</span> List of Operation Entries',
+  '<span class="command">facility</span>   List of Facility Entries',
+  '<span class="command">virus</span>      List of Virus Entries',
+  "<br>",
+];
+
+operations = [
+  "<br>",
+  'List of Operation Entries',
   "<br>"
 ];
 
+facility = [
+  "<br>",
+  'List of Facility Entries',
+  "<br>"
+];
+
+virus = [
+  "<br>",
+  'List of Virus Entries',
+  "<br>"
+];
 
 administrative = [
   "<br>",
@@ -161,6 +174,7 @@ help = [
   '<span class="command">information</span>     Information about Sierra',
   '<span class="command">administrative</span>  List of Administrative Commands',
   '<span class="command">archives</span>        List of Sierra Archives',
+  '<span class="command">history</span>         List of Previous Commands',
   '<span class="command">clear</span>           Clear Previous Logs',
   "<br>",
 ];
