@@ -161,6 +161,7 @@ help = [
   '<span class="command">information</span>     Information about Sierra',
   '<span class="command">administrative</span>  List of Administrative Commands',
   '<span class="command">archives</span>        List of Sierra Archives',
+  '<span class="command">clear</span>           Clear Previous Logs',
   "<br>",
 ];
 
