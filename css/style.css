@@ -20,10 +20,12 @@ body {
   textarea {
     left: -1000px;
     position: absolute;
+    text-transform: uppercase;
   }
   b {
     font-weight: bold;
     text-decoration: underline;
+    text-transform: uppercase;
   }
   /* Cursor Start */
   .cursor {
@@ -41,6 +43,7 @@ body {
     display: inline-block;
     text-decoration: blink;
     animation: blinker 1s linear infinite;
+    text-transform: uppercase;
   }
   @keyframes blinker {
     50% {
@@ -51,6 +54,7 @@ body {
     cursor: text;
     height: 50px;
     color: #73ABAD;
+    text-transform: uppercase;
   }
   #liner {
     line-height: 1.3em;

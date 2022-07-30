@@ -80,45 +80,84 @@ function enterKey(e) {
 function commander(cmd) {
   switch (cmd.toLowerCase()) {
     case "help":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       loopLines(help, "color2 margin", 80);
       break;
     case "information":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       loopLines(information, "color2 margin", 80);
       break;
     case "background":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       loopLines(background, "color2 margin", 80);
       break;
     case "classifications":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       loopLines(classifications, "color2 margin", 80);
       break;
     case "departments":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       loopLines(departments, "color2 margin", 80);
       break;
     case "clearances":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       loopLines(clearances, "color2 margin", 80);
       break;
     case "archives":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       loopLines(archives, "color2 margin", 80);
       break;
-    case "operations":
-      loopLines(operations, "color2 margin", 80);
+    case "operation":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
+      loopLines(operation, "color2 margin", 80);
       break;
     case "facility":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       loopLines(facility, "color2 margin", 80);
       break;
     case "virus":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       loopLines(virus, "color2 margin", 80);
       break;
     case "administrative":
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       liner.classList.add("password");
       pw = true;
       break;
-    case "history":
-      addLine("<br>", "", 0);
-      loopLines(commands, "color2", 80);
-      addLine("<br>", "command", 80 * commands.length + 50);
-      break;
-    case "clear":
+    case "home":
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';
         before = document.getElementById("before");

@@ -2,10 +2,14 @@ var password = "SIA/41!56M";
 
 information = [
   "<br>",
+  '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
+  "<br>",
   '<span class="command">BACKGROUND</span>         BACKGROUND OF SIERRA',
   '<span class="command">CLASSIFICATIONS</span>    LIST OF CLASSIFICATIONS',
   '<span class="command">DEPARTMENTS</span>        LIST OF DEPARTMENTS',
   '<span class="command">CLEARANCES</span>         LIST OF CLEARANCES',
+  "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
   "<br>",
 ];
 
@@ -39,7 +43,9 @@ background = [
   "DEPARTMENT OUTPOSTS ARE STATIONED WITHIN NOMAD TO ENSURE THAT ALL",
   "ACTIVITY ON THE ISLAND IS BEING MONITORED AS A METHOD OF REDUCING",
   "PANIC WITHIN THE WORLD.",
-  "<br>"
+  "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
+  "<br>",
 ];
 
 classifications = [
@@ -70,6 +76,8 @@ classifications = [
   "....",
   "....",
   "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
+  "<br>",
 ];
 
 departments = [
@@ -99,6 +107,8 @@ departments = [
   "MAINTENANCE DEPARTMENT....",
   "....",
   "....",
+  "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
   "<br>",
 ];
 
@@ -134,53 +144,77 @@ clearances = [
   "....",
   "....",
   "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
+  "<br>",
 ];
 
 archives = [
+  "<br>",
+  '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
   '<span class="command">OPERATIONS</span>         LIST OF OPERATION ENTRIES',
   '<span class="command">FACILITY</span>           LIST OF FACILITY ENTRIES',
   '<span class="command">VIRUS</span>              LIST OF VIRUS ENTRIES',
   "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
+  "<br>",
 ];
 
 operations = [
   "<br>",
+  '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
+  "<br>",
   'LIST OF OPERATION ENTRIES',
-  "<br>"
+  "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
+  "<br>",
 ];
 
 facility = [
   "<br>",
+  '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
+  "<br>",
   'LIST OF FACILITY ENTRIES',
-  "<br>"
+  "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
+  "<br>",
 ];
 
 virus = [
   "<br>",
+  '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
+  "<br>",
   'LIST OF VIRUS ENTRIES',
-  "<br>"
+  "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
+  "<br>",
 ];
 
 administrative = [
   "<br>",
+  '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
+  "<br>",
   '<span class="command">VIRUS-001</span>          VIRUS LOG #001 - CLASSIFIED',
-  "<br>"
+  "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
+  "<br>",
 ];
 
 help = [
   "<br>",
+  '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
+  "<br>",
   '<span class="command">INFORMATION</span>        INFORMATION ABOUT SIERRA',
   '<span class="command">ADMINISTRATIVE</span>     LIST OF ADMINISTRATIVE COMMANDS',
   '<span class="command">ARCHIVES</span>           LIST OF SIERRA ARCHIVES',
-  '<span class="command">HISTORY</span>            LIST OF PREVIOUS COMMANDS',
-  '<span class="command">CLEAR</span>              CLEAR PREVIOUS LOGS',
+  "<br>",
+  "<span class=\"color2\">TO RETURN TO THE HOMEPAGE, TYPE</span> <span class=\"command\">'HOME'</span><span class=\"color2\">.</span>",
   "<br>",
 ];
 
 banner = [
-  '<span class="index">COPYRIGHT 2022 (C) SIERRA INDUSTRIES. ALL RIGHTS RESERVED.</span>',
   "<br>",
+  '<span class="color2">COPYRIGHT 2022 (C) SIERRA INDUSTRIES. ALL RIGHTS RESERVED.</span>',
   "<br>",
   '<span class="color2">ACCESS GRANTED... SIERRA INDUSTRIES TERMINAL.</span>',
   "<br>",
