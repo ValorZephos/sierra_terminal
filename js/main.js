@@ -17,10 +17,10 @@ setTimeout(function() {
 window.addEventListener("keyup", enterKey);
 
 console.log(
-  "%cCreated by ForrestKnight",
+  "%cSierra Industries",
   "color: #04ff00; font-weight: bold; font-size: 24px;"
 );
-console.log("%cUsed by Sierra Industries (ValorZephos)", "color: grey");
+console.log("%c(ValorZephos)", "color: grey");
 
 //init
 textarea.value = "";
@@ -55,7 +55,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("authorized_user@sierra:~$ " + command.innerHTML, "no-animation", 0);
+      addLine("AUTHORIZED_USER@SIERRA:~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -79,53 +79,53 @@ function enterKey(e) {
 
 function commander(cmd) {
   switch (cmd.toLowerCase()) {
-    case "help":
-      loopLines(help, "color2 margin", 80);
+    case "HELP":
+      loopLines(HELP, "color2 margin", 80);
       break;
-    case "information":
-      loopLines(information, "color2 margin", 80);
+    case "INFORMATION":
+      loopLines(INFORMATION, "color2 margin", 80);
       break;
-    case "background":
-      loopLines(background, "color2 margin", 80);
+    case "BACKGROUND":
+      loopLines(BACKGROUND, "color2 margin", 80);
       break;
-    case "classifications":
-      loopLines(classifications, "color2 margin", 80);
+    case "CLASSIFICATIONS":
+      loopLines(CLASSIFICATIONS, "color2 margin", 80);
       break;
-    case "departments":
-      loopLines(departments, "color2 margin", 80);
+    case "DEPARTMENTS":
+      loopLines(DEPARTMENTS, "color2 margin", 80);
       break;
-    case "clearances":
-      loopLines(clearances, "color2 margin", 80);
+    case "CLEARANCES":
+      loopLines(CLEARANCES, "color2 margin", 80);
       break;
-    case "archives":
-      loopLines(archives, "color2 margin", 80);
+    case "ARCHIVES":
+      loopLines(ARCHIVES, "color2 margin", 80);
       break;
-    case "operations":
-      loopLines(operations, "color2 margin", 80);
+    case "OPERATIONS":
+      loopLines(OPERATIONS, "color2 margin", 80);
       break;
-    case "facility":
-      loopLines(facility, "color2 margin", 80);
+    case "FACILITY":
+      loopLines(FACILITY, "color2 margin", 80);
       break;
-    case "virus":
-      loopLines(virus, "color2 margin", 80);
+    case "VIRUS":
+      loopLines(VIRUS, "color2 margin", 80);
       break;
-    case "administrative":
+    case "ADMINISTRATIVE":
       liner.classList.add("password");
       pw = true;
       break;
-    case "history":
+    case "HISTORY":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
-    case "clear":
+    case "CLEAR":
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';
         before = document.getElementById("before");
       }, 1);
       loopLines(banner, "", 80);
       break;
-    case "banner":
+    case "BANNER":
       loopLines(banner, "", 80);
       break;
     default:
