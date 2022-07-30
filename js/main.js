@@ -82,11 +82,11 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
-    case "information":
-      loopLines(information, "color2 margin", 80);
-      break;
     case "organisation":
       loopLines(organisation, "color2 margin", 80);
+      break;
+    case "information":
+      loopLines(information, "color2 margin", 80);
       break;
     case "classifications":
       loopLines(classifications, "color2 margin", 80);

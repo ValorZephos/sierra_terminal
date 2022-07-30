@@ -1,15 +1,15 @@
 var password = "SIA/41!56M";
 
-information = [
+organisation = [
   "<br>",
-  '<span class="command">organisation</span>    Information about Sierra',
-  '<span class="command">classifications</span> List of Classifications',
-  '<span class="command">departments</span>     List of Departments',
-  '<span class="command">clearances</span>      List of Clearances',
+  '<span class="command">information</span>        Information about Sierra',
+  '<span class="command">classifications</span>    List of Classifications',
+  '<span class="command">departments</span>        List of Departments',
+  '<span class="command">clearances</span>         List of Clearances',
   "<br>",
 ];
 
-organisation = [
+information = [
   "<br>",
   '<span class="color2">Access Granted... Sierra Industries Terminal.</span>',
   "<br>",
@@ -139,9 +139,9 @@ clearances = [
 
 archives = [
   "<br>",
-  '<span class="command">operations</span> List of Operation Entries',
-  '<span class="command">facility</span>   List of Facility Entries',
-  '<span class="command">virus</span>      List of Virus Entries',
+  '<span class="command">operations</span>         List of Operation Entries',
+  '<span class="command">facility</span>           List of Facility Entries',
+  '<span class="command">virus</span>              List of Virus Entries',
   "<br>",
 ];
 
@@ -171,11 +171,11 @@ administrative = [
 
 help = [
   "<br>",
-  '<span class="command">information</span>     Information about Sierra',
-  '<span class="command">administrative</span>  List of Administrative Commands',
-  '<span class="command">archives</span>        List of Sierra Archives',
-  '<span class="command">history</span>         List of Previous Commands',
-  '<span class="command">clear</span>           Clear Previous Logs',
+  '<span class="command">organisation</span>       Organisation of Sierra',
+  '<span class="command">administrative</span>     List of Administrative Commands',
+  '<span class="command">archives</span>           List of Sierra Archives',
+  '<span class="command">history</span>            List of Previous Commands',
+  '<span class="command">clear</span>              Clear Previous Logs',
   "<br>",
 ];
 
