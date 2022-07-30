@@ -1,4 +1,4 @@
-var password = "123";
+var password = "lol";
 
 information = [
   "<br>",
@@ -107,7 +107,7 @@ departments = [
   "TASK FORCE DEPARTMENT....",
   "....",
   "....",
-  "<brBR>",
+  "<br>",
   "CHEMICAL INCIDENT DEPARTMENT....",
   "....",
   "....",
@@ -208,7 +208,7 @@ virus = [
   "<br>",
 ];
 
-ServiceWorkerContainer = [
+administrative = [
   "<br>",
   '<span class="color2">LOADING ADMINISTRATIVE SECTOR....</span>',
   "<br>",

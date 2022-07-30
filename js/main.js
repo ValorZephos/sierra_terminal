@@ -152,6 +152,10 @@ function commander(cmd) {
     case "administrative":
       liner.classList.add("password");
       pw = true;
+      setTimeout(function() {
+        terminal.innerHTML = '<a id="before"></a>';
+        before = document.getElementById("before");
+      }, 1);
       break;
     case "home":
       setTimeout(function() {

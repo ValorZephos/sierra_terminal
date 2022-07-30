@@ -20,10 +20,12 @@ body {
   textarea {
     left: -1000px;
     position: absolute;
+    text-transform: uppercase;
   }
   b {
     font-weight: bold;
     text-decoration: underline;
+    text-transform: uppercase;
   }
   /* Cursor Start */
   .cursor {
@@ -109,6 +111,7 @@ body {
   .command {
     color: #73ABAD;
     text-shadow: 0 0 5px #73ABAD; 
+    text-transform: uppercase;
   }
   .error {
     color: #B89076;
